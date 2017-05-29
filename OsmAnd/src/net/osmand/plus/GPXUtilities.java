@@ -722,6 +722,18 @@ public class GPXUtilities {
 			return "cloudmade".equalsIgnoreCase(author);
 		}
 
+		public TrkSegment createGeneralSegment(int trackNumber) {
+			List<WptPt> generalPoints = new ArrayList<>();
+			for (TrkSegment segment : tracks.get(trackNumber).segments) {
+				if (segment.points.size() > 1) {
+					generalPoints.addAll(segment.points);
+				}
+			}
+			TrkSegment generalSegment = new TrkSegment();
+			generalSegment.points = generalPoints;
+
+			return generalSegment;
+		}
 
 		public GPXTrackAnalysis getAnalysis(long fileTimestamp) {
 			GPXTrackAnalysis g = new GPXTrackAnalysis();
