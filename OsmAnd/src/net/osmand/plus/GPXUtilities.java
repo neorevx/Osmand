@@ -303,6 +303,10 @@ public class GPXUtilities {
 			return maxElevation != -100;
 		}
 
+		public boolean hasSpeedInTrack() {
+			return hasSpeedInTrack;
+		}
+
 		public boolean isBoundsCalculated() {
 			return left !=0 && right != 0 && top != 0 && bottom != 0;
 		}
@@ -312,6 +316,7 @@ public class GPXUtilities {
 
 		public boolean hasElevationData;
 		public boolean hasSpeedData;
+		public boolean hasSpeedInTrack = false;
 
 		public boolean isSpeedSpecified() {
 			return avgSpeed > 0;
@@ -394,15 +399,8 @@ public class GPXUtilities {
 					}
 
 					float speed = (float) point.speed;
-					Speed speed1 = new Speed();
 					if (speed > 0) {
-						totalSpeedSum += speed;
-						maxSpeed = Math.max(speed, maxSpeed);
-						speedCount++;
-
-						speed1.speed = speed;
-					} else {
-						speed1.speed = 0;
+						hasSpeedInTrack = true;
 					}
 
 					// Trend channel approach for elevation gain/loss, Hardy 2015-09-22
@@ -478,6 +476,11 @@ public class GPXUtilities {
 						point.distance = segmentDistance;
 						timeDiff = (int)((point.time - prev.time) / 1000);
 
+						//Last resort: Derive speed values from displacement if track does not originally contain speed
+						if (!hasSpeedInTrack && speed == 0 && timeDiff > 0) {
+							speed = calculations[0] / timeDiff;
+						}
+
 						// Motion detection:
 						//   speed > 0  uses GPS chipset's motion detection
 						//   calculations[0] > minDisplacment * time  is heuristic needed because tracks may be filtered at recording time, so points at rest may not be present in file at all
@@ -485,12 +488,12 @@ public class GPXUtilities {
 							timeMoving = timeMoving + (point.time - prev.time);
 							totalDistanceMoving += calculations[0];
 						}
+
 						//Next few lines for Issue 3222 heuristic testing only
 						//	if (speed > 0 && point.time != 0 && prev.time != 0) {
 						//		timeMoving0 = timeMoving0 + (point.time - prev.time);
 						//		totalDistanceMoving0 += calculations[0];
 						//	}
-
 					}
 
 					elevation1.time = timeDiff;
@@ -499,6 +502,15 @@ public class GPXUtilities {
 					if (!hasElevationData && !Float.isNaN(elevation1.elevation) && totalDistance > 0) {
 						hasElevationData = true;
 					}
+
+					if (speed > 0) {
+						totalSpeedSum += speed;
+						maxSpeed = Math.max(speed, maxSpeed);
+						speedCount++;
+					}
+
+					Speed speed1 = new Speed();
+					speed1.speed = speed;
 					speed1.time = timeDiff;
 					speed1.distance = elevation1.distance;
 					speedData.add(speed1);

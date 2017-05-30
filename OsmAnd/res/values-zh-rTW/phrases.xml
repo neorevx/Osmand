@@ -3043,4 +3043,72 @@
 	<string name="poi_office_healer">治療辦公室</string>
 	<string name="poi_office_psychologist">心理學辦公室</string>
 	<string name="poi_office_nursing_service">護理服務</string>
+	<string name="poi_office_midwife">助產士辦公室</string>
+
+	<string name="poi_fire_hydrant_diameter">消防栓直徑</string>
+	<string name="poi_fire_hydrant_pressure">消防栓壓力</string>
+	<string name="poi_fire_hydrant_count">消防栓數量</string>
+	<string name="poi_fire_hydrant_flow_capacity">消防栓流量</string>
+	<string name="poi_fire_hydrant_position_sidewalk">消防栓位置︰人行道</string>
+	<string name="poi_fire_hydrant_position_green">消防栓位置︰綠地</string>
+	<string name="poi_fire_hydrant_position_lane">消防栓位置︰通道</string>
+	<string name="poi_fire_hydrant_position_parking_lot">消防栓位置︰停車場</string>
+	<string name="poi_fire_hydrant_position_street">消防栓位置︰街道</string>
+	<string name="poi_fire_hydrant_position_underground">消防栓位置︰地下</string>
+	<string name="poi_fire_hydrant_style_wsh">消防栓型式︰wsh</string>
+	<string name="poi_fire_hydrant_style_water_source_main">主要管道</string>
+	<string name="poi_fire_hydrant_style_water_source_pond">池塘</string>
+	<string name="poi_fire_hydrant_style_water_source_stream">河流</string>
+	<string name="poi_fire_hydrant_style_water_source_cistern">水槽</string>
+	<string name="poi_in_service_yes">在職︰是的</string>
+
+	<string name="poi_military_checkpoint">軍事檢查哨</string>
+
+	<string name="poi_bicycle_parking_lockers">儲物櫃</string>
+	<string name="poi_bicycle_parking_tree">單車停車樹</string>
+	<string name="poi_bicycle_parking_streetpod">停車莢艙</string>
+
+	<string name="poi_depth">深度</string>
+
+	<string name="poi_salt_yes">鹽</string>
+	<string name="poi_salt_no">鹽︰無</string>
+	<string name="poi_spoil_heap">廢石堆</string>
+	
+	<string name="poi_wheelchair_designated">標示</string>
+	<string name="poi_summer_camp">夏令營</string>
+	<string name="poi_recreation_center">休憩中心</string>
+
+	<string name="poi_crossing_activation_automatic">平交道啓動︰自動</string>
+	<string name="poi_crossing_activation_local">平交道啓動︰現地</string>
+	<string name="poi_crossing_activation_remote">平交道啓動︰遠端</string>
+	<string name="poi_crossing_barrier_no">平交道柵欄︰無</string>
+	<string name="poi_crossing_barrier_yes">平交道柵欄</string>
+	<string name="poi_crossing_barrier_full">平交道柵欄︰完整的</string>
+	<string name="poi_crossing_barrier_half">平交道柵欄︰一半的</string>
+	<string name="poi_crossing_barrier_double_half">平交道柵欄︰雙一半的</string>
+	<string name="poi_crossing_bell_yes">平交道警鐘</string>
+	<string name="poi_crossing_bell_no">平交道警鐘︰無</string>
+	<string name="poi_crossing_light_yes">平交道燈號</string>
+	<string name="poi_crossing_light_no">平交道燈號︰無</string>
+	<string name="poi_crossing_on_demand_yes">平交道長閉遮斷器</string>
+	<string name="poi_zoo_type">類型</string>
+
+<string name="poi_crossing_on_demand_no">平交道長閉遮斷器︰無</string>
+	<string name="poi_crossing_saltire_yes">平交道X形警示</string>
+	<string name="poi_crossing_saltire_no">平交道X形警示︰無</string>
+	<string name="poi_crossing_supervision_yes">平交道管理</string>
+	<string name="poi_crossing_supervision_no">平交道管理︰無</string>
+	<string name="poi_crossing_supervision_attendant">平交道管理︰值班員</string>
+	<string name="poi_crossing_supervision_camera">平交道管理︰攝影機</string>
+
+	<string name="poi_dispensing_yes">是的</string>
+	<string name="poi_dispensing_no">配藥︰無</string>
+
+	<string name="poi_aerodrome_type_international">國際性的</string>
+	<string name="poi_aerodrome_type_regional">區域性的</string>
+	<string name="poi_aerodrome_type_public">民用</string>
+	<string name="poi_aerodrome_type_military">軍用</string>
+	<string name="poi_aerodrome_type_military_public">軍/民共用</string>
+	<string name="poi_aerodrome_type_private">私人</string>
+
 	</resources>

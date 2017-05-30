@@ -2552,14 +2552,14 @@ Moduli:
     <string name="restart_search">Pierazapuscić pošuk</string>
     <string name="increase_search_radius">Pavialičyć radyus pošuku</string>
     <string name="nothing_found">Ničoha nie znojdziena :(</string>
-    <string name="nothing_found_descr">Pasprabujćie źmianić zapyt ci pavialičyć radyus pošuku</string>
+    <string name="nothing_found_descr">Zmianić zapyt pošuku ci pavialičyć radyus pošuku</string>
     <string name="quick_action_showhide_osmbugs_title">Pakazać/schavać natatki OSM</string>
     <string name="quick_action_osmbugs_show">Pakazać natatki OSM</string>
     <string name="quick_action_osmbugs_hide">Schavać natatki OSM</string>
     <string name="quick_action_showhide_osmbugs_descr">Nacisk na knopky dziejańnia pakaža/schavaje natatki OSM na mapie.</string>
     <string name="sorted_by_distance">Adsartavana pa adlehłaści</string>
     <string name="search_favorites">Pošuk u abranych</string>
-    <string name="srtm_menu_download_descr">Dla prahladu konturnych linij na mapie, vam treba spampavać mapu konturnych linij hetaha rehijonu.</string>
+    <string name="srtm_menu_download_descr">Kab ubačyć konturnyja linii, vam nieabchodna spampavać admyslovuju mapu dlia hetaha rehijona.</string>
     <string name="shared_string_plugin">Dadatak</string>
     <string name="srtm_purchase_header">Dla prahladu konturnych linij na mapie, vam nieabchodna nabyć i ŭstalavać dadatak «Contour Lines»</string>
     <string name="srtm_color_scheme">Kalarovaja schiema</string>
@@ -2584,7 +2584,7 @@ Moduli:
     <string name="quick_action_auto_zoom_off">Aŭtamaštab adklučany</string>
     <string name="quick_action_add_destination">Dadać miesca pryznačeńnia</string>
     <string name="quick_action_replace_destination">Zamianić punkt pryznačeńnia</string>
-    <string name="private_access_routing_req">Vaš punkt pryznačeńnia znachdzicca na pryvatnaj terytoryi. Vy chočacie dazvolić dostup da pryvatnych daroh dla hetaj pajezdki?</string>
+    <string name="private_access_routing_req">Vaš punkt pryznačennia znachodzicca na pryvatnaj terytoryi. Vy chočacie dazvolić dostup da pryvatnych daroh dlia hetaj pajezdki?</string>
     <string name="subscribe_email_error">Pamyłka</string>
     <string name="depth_contour_descr">Nabor map, jakija źmiaščajuć kontury i kropki marskich hłybiń (na asnovie sietki ŭ 30 vuhłavych siekund).</string>
     <string name="sea_depth_thanks">Dziakuj za pakupku konuraŭ marskich hłybiń!</string>
@@ -2654,7 +2654,7 @@ Moduli:
     <string name="rendering_value_dark_brown_name">Ciomna-karyčnievy</string>
     <string name="search_hint">Uviadzicie nazvu horada, adras, POI</string>
     <string name="translit_name_if_miss">Tranślitaravać kali nazva na %1$s adsutničaje</string>
-    <string name="translit_names"/>
+    <string name="translit_names">Translitaracyja nazvaŭ</string>
     <string name="edit_filter">Redahavać katehoryi</string>
     <string name="subcategories">Padkatehoryi</string>
     <string name="selected_categories">Abranyja katehoryi</string>
@@ -2681,7 +2681,7 @@ Moduli:
     <string name="quick_action_add_osm_bug">Dadać OSM natatku</string>
     <string name="quick_action_navigation_voice">Holas ukl/adkl</string>
     <string name="shared_string_add_photos">Dadać fatahrafii</string>
-    <string name="no_photos_descr">U nas pakul niama fatahrafij hetaha miesca</string>
+    <string name="no_photos_descr">My nie majem fatahrafij dlia hetaha miesca</string>
     <string name="mapillary_widget">Vidžet Mapillary</string>
     <string name="mapillary">Мapillary</string>
     <string name="quick_action_map_underlay_action">Dadać padkladku</string>
@@ -2720,16 +2720,16 @@ Moduli:
     <string name="no_overlay">Biez nakładki</string>
     <string name="open_mapillary">Adkryć Mapillary</string>
     <string name="shared_string_install">Ustalavać</string>
-    <string name="improve_coverage_mapillary">Palepšyć pakryćcio z Mapillary</string>
+    <string name="improve_coverage_mapillary">Paliepšyć fota-pakryccio Mapillary</string>
     <string name="online_photos">Anłajn fatahrafii</string>
-    <string name="improve_coverage_install_mapillary_desc">Vy možacie zrabić ułasnyja fatahrafii ci padborku fatahrafij i dadać ih da hetaha miesca na mapie.
-\n
-\nKab zrabić tak, nieabchodna ŭstalavać Mapillary z Google Play.</string>
-    <string name="mapillary_action_descr">Padzialicca svaimi vuličnymi vidami hetaj miascovasci s Mapillary.</string>
-    <string name="mapillary_descr">Vuličnyja-Fota anlajn dla ŭsich. Adkryvajcie dla siabie miescy, dapamahajcie, zdymajcie śviet.</string>
-    <string name="plugin_mapillary_descr">Vuličnyja Fota dla Ŭsich. Adkryvajcie dla siabie miescy, dapamahajcie, zdymajcie śviet.</string>
+    <string name="improve_coverage_install_mapillary_desc">Vy možacie zrabić ulasnyja fatahrafii ci padborku fatahrafij i dadać ich da hetaha miesca na mapie. 
+\n 
+\nKab zrabić tak, nieabchodna ŭstaliavać Mapillary z Google Play.</string>
+    <string name="mapillary_action_descr">Padzialicca svaimi vuličnymi vidami hetaj miascovasci praz Mapillary.</string>
+    <string name="mapillary_descr">Vuličnyja fota anlajn dlia kožnaha. Adkryvajcie dlia siabie miescy, dapamahajcie, zdymajcie sviet.</string>
+    <string name="plugin_mapillary_descr">Vuličnyja fatahrafii dlia ŭsich. Adkryvajcie dlia siabie miescy, dapamahajcie, zdymajcie sviet.</string>
     <string name="mapillary_image">Vyjava Mapillary</string>
-    <string name="mapillary_widget_descr">Dazvalaje chutka ŭniesci svoj układ u Mapillary</string>
+    <string name="mapillary_widget_descr">Dazvaliaje vam chutki ŭniosak ŭ Mapillary</string>
     <string name="relief_smoothness_factor_descr">Pieravažny reljef: raŭninny abo ŭzhorysty</string>
     <string name="routing_attr_height_obstacles_description">Vykaryctoŭvać dadzienyja ab reljefu miascovaści, jakija pradstaŭlajucca SRTM, ASTER i EU-DEM</string>
     <string name="rendering_attr_depthContours_description">Pakazvać kontury i punkty hlybini</string>
@@ -2746,4 +2746,167 @@ Moduli:
     <string name="quick_action_add_destination_desc">Nacisk na knopku dadasć punkt pryznačennia pa centry ekrana. Papiaredni punkt pryznačennia stanie apošniaj pramiežkavaj kropkaj.</string>
     <string name="quick_action_replace_destination_desc">Nacisk na knopku zamienić punkt pryznačennia pa centry ekrana.</string>
     <string name="quick_action_add_first_intermediate_desc">Nacisk na knopku dadasć pieršuju pramiežkavuju kropku pa centry ekrana.</string>
+    <string name="distance_moving">Dystancyja papraŭlienaja</string>
+    <string name="subscribe_email_desc">Padpišyciesia na našu rassylku ab znižkach na prahramu i atrymajcie 3 dadatkovyja mapy!</string>
+    <string name="analyze_on_map">Analizuj na mapie</string>
+    <string name="do_not_send_anonymous_app_usage">Na adsylać ananimnaj statystyki vykarystannia</string>
+    <string name="do_not_send_anonymous_app_usage_desc">OsmAnd zbiraje infarmacyju ab tym, jaki častki prahramy vykarystoŭvajucca vami. Vaša miescaznachodžannie nikoli nie adpraŭliajecca, jak i ŭsio, što vy ŭvodzicie, jakija voblasci prahliadajecie, što šukajecie ci spampoŭvajecie.</string>
+    <string name="do_not_show_startup_messages_desc">Pakazvaje paviedamlienni pra znižki i spiecyjaĺnyja lakaĺnyja padziei</string>
+    <string name="routing_attr_relief_smoothness_factor_plains_name">Pahorysty</string>
+    <string name="route_points_category_name">Pavaroty na maršrucie</string>
+    <string name="track_points_category_name">Značnyja kropki maršruta</string>
+    <string name="shared_string_time_moving">Čas ruchu</string>
+    <string name="shared_string_time_span">Časavy dyjapazon</string>
+    <string name="routing_attr_relief_smoothness_factor_name">Abrać pierasiečanasć miascovasci</string>
+    <string name="routing_attr_height_obstacles_name">Vykarystoŭvać danyja vyšyni</string>
+    <string name="rendering_attr_depthContours_name">Kontury marskich hlybiń</string>
+    <string name="release_2_6">" • Novaja funkcyja: knopka chutkaha dziejannia 
+\n 
+\n • Paliepšany adkaz na žesty sensarnaha ekrana 
+\n 
+\n • Novy šryft mapy, jaki pakryvaje boĺš lakaliaju 
+\n 
+\n • Padtrymka TTS dlia varyjanaŭ rehijanaĺnych moŭ 
+\n 
+\n • Paliapšenni vizualizacyi ŭ niekatorych styliach mapaŭ i Vikipedyi 
+\n 
+\n • Padtrymka Open Location Code (OLC) 
+\n 
+\n • Adliustavannie profiliu vyšyni, ŭchilu i chutkasci dlia zapisnych GPX-trekaŭ i različanych maršrutaŭ 
+\n 
+\n • Nalady «Styĺ kiravannia» i paliapšennie lohiki ŭ rovarnaj maršrutyzacyi 
+\n 
+\n • Nalady dlia vykarystannia danych vyšyni ŭ rovarnaj maršrutyzacyi 
+\n 
+\n • Mnostva inšych paliapšenniaŭ i vypraŭlienniaŭ pamylak 
+\n 
+\n i šmat inšaha… "</string>
+    <string name="auto_split_recording_title">Aŭtamatyčnaje dzialiennie zapisaŭ paslia pieraryva</string>
+    <string name="auto_split_recording_descr">Pačać novy siehmient paslia 6 minutnaha pierapynku, novy trek — paslia 2 hadzinnaha pierapynku, ci novy fajl paslia doŭhaha pierapynku (jak zmianiliasia data).</string>
+    <string name="rendering_attr_contourDensity_name">Častaść haryzantaliaŭ</string>
+    <string name="rendering_value_medium_w_name">Siaredniaja</string>
+    <string name="rendering_value_low_name">Nizkaja</string>
+    <string name="rendering_attr_contourWidth_name">Taŭščynia haryzantaliaŭ</string>
+    <string name="rendering_value_high_name">Vysokaja</string>
+    <string name="legacy_search">Sastarely pošuk</string>
+    <string name="show_legacy_search">Pakazvać sastarely pošuk</string>
+    <string name="show_legacy_search_desc">Dazvolić sastarely pošuk u meniu</string>
+    <string name="wiki_around">Blizkija artykuly ŭ Vikipedyi</string>
+    <string name="route_roundabout_short">Zbočcie na %1$d źjeździe</string>
+    <string name="gpx_no_tracks_title">U vas jašče niama śliadoŭ</string>
+    <string name="gpx_no_tracks_title_folder">Vy taksama možacie dadać śliady ŭ katalioh</string>
+    <string name="trip_rec_notification_settings_desc">Pakazvać apaviaščeńnie, jakoje dazvolić pačać zapis z dapamohaj knopki \"Zapis padarožža\"</string>
+    <string name="shared_string_notifications">Paviedamlieńni</string>
+    <string name="shared_string_paused">Prypynieny</string>
+    <string name="release_2_5">" • Ikonki na mapie, jakija moža naciskać, 
+\n 
+\n • Pošuk liubych POI: Pošuk restaranaŭ pavodlie kuchni abo kiempinhaŭ z peŭnymi vyhodami, 
+\n 
+\n • Novy styĺ mapy \"OsmAnd Topo\" dlia vielasipiedystaŭ i piešych turystaŭ. 
+\n 
+\n • Paliapšeńnie zapisu śliedu, 
+\n 
+\n • Paliapšeńnie apaviaščeńniaŭ pry navihacyi (Android Wear) 
+\n 
+\n • Mnostva inšych paliapšeńniaŭ i vypraŭlieńniaŭ, 
+\n 
+\n i mnohaje inšaje ... "</string>
+    <string name="save_track_min_speed_descr">Vybierycie minimaĺnuju chutkaść, pry pieravyšeńni jakoj punkt budzie zapisany ŭ ślied</string>
+    <string name="save_track_min_distance">Minimaĺnaja dystancyja dlia zapisu</string>
+    <string name="save_track_min_distance_descr">Vybierycie adliehlaść, pry pieravyšeńni jakoj punkt budzie zapisany ŭ ślied</string>
+    <string name="save_track_precision">Minimaĺnaja dakladnaść žurnaliavannia</string>
+    <string name="save_track_precision_descr">Abiarycie minimaĺnuju dakladnaść dlia kropki, kab być zažurnaliavanaj</string>
+    <string name="christmas_desc">Napiaredadni kaliadnych i navahodnich śviataŭ, vy možacie vybrać dlia adliustravańnia POI, źviazanyja z Kaliadami: jelki, kirmašy i da t.p.</string>
+    <string name="rendering_attr_contourColorScheme_name">Kolieravaja schiema haryzantaliaŭ</string>
+    <string name="rendering_attr_surfaceIntegrity_name">Jakaść darožnaha pakryćcia</string>
+    <string name="create_custom_poi">Stvaryć ulasny fiĺtr</string>
+    <string name="custom_search">Ulasny pošuk</string>
+    <string name="shared_string_filters">Fiĺtry</string>
+    <string name="apply_filters">Užyć fiĺtry</string>
+    <string name="save_filter">Zachavać fiĺtar</string>
+    <string name="delete_filter">Vydalić fiĺtr</string>
+    <string name="new_filter">Novy fiĺtar</string>
+    <string name="new_filter_desc">Kali laski, uviadzicie nazvu novaha fiĺtra. Jon budzie dadadzieny ŭ spis katehoryj.</string>
+    <string name="rendering_value_fine_name">Vieĺmi tonki</string>
+    <string name="navigate_point_olc">Adkryty kod miescaznachodžannia (OLC)</string>
+    <string name="navigate_point_olc_info_invalid">Niekarektny OLC
+\n</string>
+    <string name="navigate_point_olc_info_short">Karotki OLC
+\nKali laska, uviadzicie poŭny kod</string>
+    <string name="navigate_point_olc_info_area">Karektny poŭny OLC
+\nApisvaje voblaść: %1$s x %2$s</string>
+    <string name="lang_sr_latn">serbskaja (lacinka)</string>
+    <string name="lang_zh_hk">kitajskaja (Hankonh)</string>
+    <string name="route_is_too_long_v2">Hety maršrut, mahčyma, zanadta vialiki dlia razliku. Kali laska, dadajcie pramiežkavyja punkty, kali razlik nie zaviaršyŭsia ciaham 10 chvilin.</string>
+    <string name="driving_region_australia">Aŭstralija</string>
+    <string name="osmand_extended_description_part1">" OsmAnd (OSM Automated Navigation Directions) mapa i prahrama navihacyi z dostupam da darmovych sviatovych jakasnych danych OpenStreetMap (OSM). 
+\nAtrymlivajcie asalodu ad holasavoha i aptyčnaha navihatara, prahliada karysnych miescaŭ (anh. POI, points of interest), stvarennia i kiravannia GPX-trekami, vykarystannia konturnych linij i infarmacyi ab vyšyni (praz plahin), vybaru pamiž kiravanniem aŭtamabiliem, jazdoj na rovary i špacyram, redahavannia OSM i šmat inšym. "</string>
+    <string name="osmand_extended_description_part2">" GPS-navihacyja • Vy možacie vybrać pamiž aŭtanomnym režymam (biez platy za roŭminh) i praz Internet (chutčej) • Pakrokavyja halasavyja padkazki (zpisanyja abo sintezavanyja halasy) dastaviać vas da miesca pryznačennia • Paŭtorny razlik maršrutu paslia značnaha adchiliennia ad dziejnaha • Palasy ruchu, nazvy vulic i prybliŭny čas prybyccia dapamohuć na darozie • Dlia taho, kab zrabić vaša padarožža boĺš biaspiečnym, režym dnia/nočy pierakliučajecca aŭtamatyčna • Vy možacie naladzić adliustravannie abmiežavanniaŭ chutkasci dy atrymoŭvać papiaredžanni pry jaje pryvyšenni • Mapa maštabujecca adpaviedna vašaj chutkasci • Vy možacie šukać miescy pa adrasie, typu (parkinh, restaracyja, hateĺ, zapraŭka, muziej i h.d.) ci hieahrafičnym kaardynatam • Padtrymka pramiežkavych kropak maršrutu • Vy možacie zapisać ulasny GPX-trek abo zahruzić hatovy i prytrymlivacca jaho "</string>
+    <string name="osmand_extended_description_part3">" Mapa 
+\n• Adliustroŭvaje POI (punkt intaresaŭ) kalia vas 
+\n• Adaptuje mapu ŭ napramku vašaha ruchu (ci kompasa) 
+\n• Pakazvaje, dzie vy znachodziciesia i kudy vy hliadzicie 
+\n• Dzialiciesia svaim razmiaščenniem, kab siabry zmahli znajsci vas 
+\n• Zachoŭvaje vašy samyja važnyja miescy ŭ Abranych 
+\n• Dazvaliaje vam abrać jak adliustroŭvać nazvy na mapie: na anhlijskaj, lakaĺnaj ci z fanietyčnym napisanniem 
+\n• Adliustroŭvaje admyslovyja anlajn-tajly, spadarožnikavyja zdymki (z Bing), roznyja paznaki, jak turystyčnyja/navihacyjnyja GPX-treki i dadatkovyja slai z naladžvaĺnaj prazrystasciu "</string>
+    <string name="osmand_extended_description_part4">" Lyžnia 
+\nOsmAnd-dadatak lyžnych map dazvaliaje bačyć lyžnyja trasy z uzroŭniem skladanasci i niekatoraj dadatkovaj infarmacyjaj, jak razmiaščennie pad\'jomnikaŭ i inšych ab\'jektaŭ. "</string>
+    <string name="osmand_extended_description_part5">" Jazda na rovary 
+\n • Vy možacie znajsci rovanyja šliachi na mapie 
+\n • GPS-navihacyja ŭ rovarnym režymie buduje maršrut vykarystoŭvajučy rovarnyja šliachi 
+\n • Vy možacie bačyć vašu chutkasć i vyšyniu nad uzroŭniem mora 
+\n • Opcyja GPX-zapisu dazvaliaje vam zapisvać vaša padarožža i dzialicca im 
+\n • Praz dadatak vy možacie ŭkliučyć adliustravannie konturnych linij i zaciamniennie reĺjefu "</string>
+    <string name="osmand_extended_description_part6">" Špacyry, pachody, ekskursii • Mapa pakazvaje piešachodnyja sciežki • Vikipiedyja ŭpadabanaj movaj raspaviadzie vam šmat čaho cikavaha padčam ekskursii • Prypynki hramadskaha transpartu (aŭtobus, travaj, ciahnik), ukliučajučy nazvy maršrutaŭ, dapamohuć aryjentavacca ŭ novym horadzie •  GPS-navihacyja ŭ piešachodnym režymie vyličvaje maršrut, vykarystoŭvajučy piešachodnyja sciežki • Vy možacie zahruzić i prytrymlivacca GPX-maršruta abo zapisać i dzialicca svaim ulasnym "</string>
+    <string name="osmand_extended_description_part7">" Udziel u OSM • Paviedamliennie ab pamylkach • Zahruzka GPX-trekaŭ u OSM prosta z prahramy • Dadavannie cikavych kropak (POI) i zahruzka ich u OSM (ci pazniej, kali aflajn) "</string>
+    <string name="osmand_extended_description_part8">" OsmAnd — adkrytaje prahramnaje zabiaspiačennie z aktyŭnym razvicciom. Kožny moža ŭniesć svoj uklad paviedamliajučy ab pamylkach, paliapšajučy pieraklad ci raspracoŭvajučy navyja funkcyi. Prajekt znachodzicca ŭ žvavym stanie biespierapynnaha ŭdaskanaliennia ŭsich form uzajemadziejannia raspracoŭnikaŭ dy karystaĺnikaŭ. Chod prajekta taksama zaliežyć ad finansavych unioskaŭ dlia zabiaspiačennia pracesa kadavannia i testavannia novaj funkcyjanaĺnasci. Prybliznaje achapliennie map dy jakasć: • Zachodniaja Jeŭropa: **** • Uschodniaja Jeŭropa: *** • Rasija: *** • Paŭnočnaja Amieryka: *** • Paŭdniovaja Amieryka: ** • Azija: ** • Japonija i Kareja: *** • Siaredni Uschod: ** • Afryka: ** • Antarktyda: * Boĺšasć krain svietu dastupny da zapampoŭki! Atrymajcie nadziejny navihatar u vašaj krainie — budź to Bielaruś, Francyja, Hiermanija, Mieksika, Vialikabrytanija, Hispanija, Niderlandy, ZŠA, Rasija, Brazilija ci jakaja inšaja. "</string>
+    <string name="osmand_plus_extended_description_part1">" OsmAnd+ (OSM Automated Navigation Directions) — kartahrafičnaja i navihacyjnaja prahrama z dostupam da volynych, susvietnych i vysokajakasnych danych OpenStreetMap (OSM). Atrymoŭvajcie asalodu ad halasavaj i vizuaĺnaja navihacyi, prahliadajcie cikavyja kropki (POI), zapisvajcie GPX-treki, vykarystoŭvajcie vizualizacyja konturnych linij dy danych vyšyni, pierakliučajciesia pamiž režymami kiravannia, jazdoj na rovary dy špacyrami, redahujcie OSM-danyja i šmat inšaha. OsmAnd+ maje platnuju viersiju prahramy. Pry nabycci, vy padtrymajecie prajekt, finansujecie raspracoŭku novych mažlivasciej dy atrymajecie apošnija abnaŭlienni. Niekatoryja z haloŭnych mažlivasciej: "</string>
+    <string name="osmand_plus_extended_description_part2">" Navihacyja • Pracuje praz Internet (chutka) abo aŭtanomna (biez platy za roŭminh za miažoj) • Pakrokavyja halasavyja padkazki (zapisanyja ci sintezavanyja halasy) • Mahčymaje prytrymlivannie palos ruchu, adliustravannie nazvy vulicy i pryblizny čas prybyccia • Padtrymka pramiežkavych kropak na vašym maršrucie • Aŭtamatyčnaje pieraprakladvannie maršruta pry adchilienni ad isnaha • Pošuk miescaŭ pa adrasie, typu (napryklad, restaracyja, hateĺ, zapraŭka, muziej) ci hieahrafičnym kaardynatam "</string>
+    <string name="osmand_plus_extended_description_part3">" Prahliad mapy • Pakazvaje, dzie vy znachodzisia i kudy hliadzicie • Pry patrebie vyraŭniaje mapu pa kompasie ci pa napramku vašaha ruchu • Zbierahaje vašy najvažniejšyja miescy ŭ zakladkach • Adliustroŭvaje cikavyja kropki vakol vas • Pakazvaje admyslovyja anlajn-mapy, spadarožnikavyja zdymki (Bing), roznyja nakladki nakštalt turystyčnych/navihacyjnych GPX-trekaŭ i dadatkovyja slai z naladžvaĺnaj prazrystasciu • Moža adliustroŭvać na mapie bielaruskija, anhlijskija, lakaĺnyja nazvy ci z fanietyčnym napisanniem "</string>
+    <string name="osmand_plus_extended_description_part4">" Vykarystoŭvajucca danyja OSM dy Vikipiedyi • Vysokajakasnaja infarmacyja ad najliepšych prajektaŭ svietu • OSM-danyja dastupny pa krainie ci rehijonu • Cikavyja miescy z Vikipiedyi, vydatna padychodzić dlia ahliadu vybitnasciaŭ • Nieabmiežavanaja koĺkasć biasplatnych spampovak prosta z prahramy • Kampaktnyja aflajnavyja viektarnyja mapy abnoŭliajucca nie radziej razu ŭ miesiac • Vybar pamiž poŭnymi danymi rehijona ci toĺki darožnaj sietkaj (napryklad, usia Japonija zajmaje 700 MB, a darožnaja sietka — 200 MB) "</string>
+    <string name="osmand_plus_extended_description_part5">" Asablivasci biaspieki • Mahčamasć aŭtamatyčnaha pierakliučennia režyma dzień/noč • Mahčymasć adliustravannia abmiežavannia chutkasci z nahadvanniem pry pieravyšenni • Mahčymasć zmieny maštabu ŭ zaliežnasci ad chutkasci • Mahčamasć dzialicca svaim miescaznachodžanniem, kab siabry zmahli znajsci vas "</string>
+    <string name="osmand_plus_extended_description_part6">" Mažlivasci dlia piešachodaŭ i ravarystaŭ • Prahliad piešachodnych, turystyčnych i rovarnych sciežak, vydatna padychodzić dlia aktyŭnaha adpačynku • Admyslovy režymy maršrutyzacyi dy adliustravannia dlia ravarystaŭ i piešachodaŭ • Apcyjanaĺnyja prypynki hramadskaha transpartu (aŭtobus, tramvaj, ciahnik), ukliučajučy nazvy maršrutaŭ • Mahčymasć zapisu padarožža ŭ lakaĺny GPX-fajl ci internet-servis • Mahčymasć adliustravannia chutkasci dy vyšyni • Adliustravannie konturnych linij dy zacianiennia vyšyń (praz dadatak) "</string>
+    <string name="osmand_plus_extended_description_part7">" Niepasredny ŭklad u OSM • Zajavy ab pamalkach u danych • Zahruzka GPX-trekaŭ u OSM prosta z prahramy • Dadavannie cikavych kropak (POI) i niepasrednaja zahruzka ich u OSM (ci pazniej, jak aflajn) • Mahčymasć zapisu padarožža ŭ fonavym režymie (u toj čas, jak prylada znachodzicca ŭ spiačym režymie) OsmAnd — adkrytaje prahramnaje zabiaspiačennie ŭ aktyŭnaj raspracoŭcy. Kožny moža ŭniesci ŭklad paviedamliajučy ab pamylkach, paliapšajučy pieraklad ci raspracoŭvajučy navyja mažlivasci. Prajekt znachodzicca ŭ žvavym stanie biezpierapynnaha ŭdaskanaliennia form uzajemadziejannia raspracoŭnikaŭ i karystaĺnikaŭ. Chod prajekta zaliežyć taksama ad finansavych unioskaŭ dlia zabiaspiačennia pradaŭžennia kadavannia i testavannia novaj funkcyjanaĺnasci. "</string>
+    <string name="osmand_plus_extended_description_part8">" Prybliznaje pakryccio i jakasć mapy: 
+\n • Zachodniaja Jeŭropa: **** 
+\n • Uschodniaja Jeŭropa: *** 
+\n • Rasija: *** 
+\n • Paŭnočnaja Amieryka: *** 
+\n • Paŭdniovaja Amieryka: ** 
+\n • Azija: ** 
+\n • Japonija i Kareja: *** 
+\n • Blizki Uschod: ** 
+\n • Afryka: ** 
+\n • Antarktyka: * 
+\n Boĺšasć krain pa ŭsim sviecie dastupnyja jak spampoŭki! 
+\n Ad Aŭhanistana da Zimbabve, ad Aŭstralii da ZŠA. Arhiencina, Brazilija, Kanada, Francyja, Hiermanija, Mieksika, Vialikabrytanija, Hispanija, … "</string>
+    <string name="save_poi_too_many_uppercase">Nazva zmiaščaje zanadta šmat vialikich litar. Vy chočacie pradoŭžyć?</string>
+    <string name="quick_favorites_show_favorites_dialog">Pakazać dyjaloh abranaha</string>
+    <string name="quick_favorites_name_preset">Nazva</string>
+    <string name="quick_action_add_marker_descr">Pry naciskanni na knopku dadasć markier na mapu ŭ centry ekrana.</string>
+    <string name="quick_action_add_gpx_descr">Pry naciskanni na knopku dadasć GPX-kropku na mapu ŭ centry ekrana.</string>
+    <string name="quick_action_take_audio_note_descr">Pry naciskanni na knopku dadasć aŭdyjanatatku na mapu ŭ centry ekrana.</string>
+    <string name="quick_action_take_video_note_descr">Pry naciskanni na knopku dadasć videanatatku na mapu ŭ centry ekrana.</string>
+    <string name="quick_action_take_photo_note_descr">Pry naciskanni na knopku dadasć fotanatatku na mapu ŭ centry ekrana.</string>
+    <string name="quick_action_add_osm_bug_descr">Pry naciskanni na knopku dadasć OSM-natatku na mapu ŭ centry ekrana.</string>
+    <string name="quick_action_add_poi_descr">Pry naciskanni na knopku dadasć POI na mapu ŭ centry ekrana.</string>
+    <string name="quick_action_navigation_voice_descr">Pry naciskanni na knopku adkliučyć ci ŭkliučyć halasavyja padkazki pad čas navihacyi.</string>
+    <string name="quick_action_add_parking_descr">Pry naciskanni na knopku dadasć miesca parkoŭki ŭ centry ekrana.</string>
+    <string name="favorite_autofill_toast_text">" bylo zachavana ŭ "</string>
+    <string name="favorite_empty_place_name">Miesca</string>
+    <string name="quick_action_duplicates">Nazva dlia chutkaha dziejannia ŭžo isnuje. Dziejannie budzie zachovana jak %1$s kab pazbavicca dubliavannia.</string>
+    <string name="quick_action_duplicate">Znojdzieny dublikat nazvy</string>
+    <string name="quick_action_showhide_favorites_descr">Pry naciskanni na knopku pakaža ci schavaje abranyja kropki na mapie.</string>
+    <string name="quick_action_showhide_poi_descr">Pry naciskanni na knopku pakaža ci schavaje POI na mapie.</string>
+    <string name="quick_action_add_create_items">Stvarennie eliemientaŭ</string>
+    <string name="quick_action_fav_name_descr">Pakińcie pustym, kab aŭtamatyčna prymianić adras abo nazvu horadu</string>
+    <string name="quick_action_bug_descr">Heta paviedamlieńnie budzie aŭtamatyčna zapoŭniena ŭ polie kamentara.</string>
+    <string name="quick_action_category_descr">Vybierycie katehoryju, kab zachavać liubimaje tam</string>
+    <string name="quick_action_gpx_category_descr">Abiarycie katehoryju (apcyjanaĺna)</string>
+    <string name="quick_action_sh_poi_descr">Vy možacie dadać adnu abo niekaĺki katehoryj POI dlia adliustravańnia na mapie.</string>
+    <string name="quick_action_page_list_descr">Pry naciskanni na knopku budzie hartać staronki danaha spisu.</string>
+    <string name="quick_action_btn_tutorial_descr">Doŭhi nacisk i pieraciahvannie dazvaĺci pieramiascić kropku</string>
+    <string name="shared_string_permissions">Dazvoly</string>
+    <string name="import_gpx_failed_descr">OsmAnd nie moža impartavać fajl. Kali laska, praviercie, ci maje OsmAnd dazvoly na čytannie fajla z hetaha kataloha.</string>
     </resources>

@@ -924,7 +924,7 @@
 	<string name="poi_craft_computer">Komputilistejo</string>
 	<string name="poi_funeral_directors">Tombistejo</string>
 	<string name="poi_beauty">Beligejo</string>
-	<string name="poi_beauty_salon_nails">Ung-beligado</string>
+	<string name="poi_beauty_salon_nails">ung-beligado</string>
 	<string name="poi_hairdresser">Frizejo</string>
 	<string name="poi_massage">Salono de masaĝo</string>
 	<string name="poi_tattoo">Tatuejo</string>
@@ -946,7 +946,7 @@
 	<string name="poi_money_lender">Pruntedonantejo</string>
 	<string name="poi_pawnbroker">Lombardejo</string>
 	<string name="poi_accountant">Kontista oficejo</string>
-	<string name="poi_bitcoin_yes">Bitmono akcepta</string>
+	<string name="poi_bitcoin_yes">Bitmono akceptata</string>
 
 	<string name="poi_cave_entrance">Enirejo al kaverno</string>
 	<string name="poi_peak">Montpinto</string>
@@ -1117,20 +1117,20 @@
 	<string name="poi_disused">Neuzata</string>
 
 	<string name="poi_operator">Administranto</string>
-	<string name="poi_fee_yes">Jes</string>
-	<string name="poi_fee_no">Ne</string>
-	<string name="poi_drinking_water_yes">Jes</string>
-	<string name="poi_drinking_water_no">Ne</string>
-	<string name="poi_supervised_yes">Gardata</string>
-	<string name="poi_supervised_no">Ne-gardata</string>
-	<string name="poi_seasonal_yes">Jes</string>
-	<string name="poi_seasonal_no">Ne</string>
-	<string name="poi_seasonal_dry_season">Seka sezono</string>
-	<string name="poi_seasonal_wet_season">Pluva sezono</string>
-	<string name="poi_seasonal_spring">Printempo</string>
-	<string name="poi_seasonal_summer">Somero</string>
-	<string name="poi_seasonal_autumn">Aŭtuno</string>
-	<string name="poi_seasonal_winter">Vintro</string>
+	<string name="poi_fee_yes">jes</string>
+	<string name="poi_fee_no">ne</string>
+	<string name="poi_drinking_water_yes">jes</string>
+	<string name="poi_drinking_water_no">ne</string>
+	<string name="poi_supervised_yes">gardata</string>
+	<string name="poi_supervised_no">negardata</string>
+	<string name="poi_seasonal_yes">jes</string>
+	<string name="poi_seasonal_no">ne</string>
+	<string name="poi_seasonal_dry_season">seka sezono</string>
+	<string name="poi_seasonal_wet_season">pluva sezono</string>
+	<string name="poi_seasonal_spring">printempo</string>
+	<string name="poi_seasonal_summer">somero</string>
+	<string name="poi_seasonal_autumn">aŭtuno</string>
+	<string name="poi_seasonal_winter">vintro</string>
 	<string name="poi_crossing_traffic_signals">Trafiklumoj</string>
 	<string name="poi_crossing_uncontrolled">Sen trafiklumoj</string>
 	<string name="poi_crossing_unmarked">Nemarkita</string>
@@ -1180,15 +1180,15 @@
 	<string name="poi_parking_underground">Subtera</string>
 	<string name="poi_parking_multi_storey">Multetaĝa</string>
 
-	<string name="poi_bicycle_parking_anchors">Ankroj</string>
+	<string name="poi_bicycle_parking_anchors">ankroj</string>
 	<string name="poi_trees_apple">Pomujoj</string>
-	<string name="poi_bicycle_parking_stands">Rakoj simplaj</string>
-	<string name="poi_bicycle_parking_wall_loops">Rakoj rad-kaptantaj</string>
-	<string name="poi_bicycle_parking_rack">Rakoj</string>
-	<string name="poi_bicycle_parking_building">Speciala konstruaĵo</string>
-	<string name="poi_bicycle_parking_shed">Budo</string>
-	<string name="poi_bicycle_parking_bollard">Paliseto</string>
-	<string name="poi_bicycle_parking_informal">Neformala</string>
+	<string name="poi_bicycle_parking_stands">rakoj simplaj</string>
+	<string name="poi_bicycle_parking_wall_loops">rakoj rad-kaptantaj</string>
+	<string name="poi_bicycle_parking_rack">rakoj</string>
+	<string name="poi_bicycle_parking_building">speciala konstruaĵo</string>
+	<string name="poi_bicycle_parking_shed">budo</string>
+	<string name="poi_bicycle_parking_bollard">paliseto</string>
+	<string name="poi_bicycle_parking_informal">neformala</string>
 
 	<string name="poi_leaf_type_broadleaved">Folihava(j)</string>
 	<string name="poi_leaf_type_needleleaved">Pinglofolia(j)</string>
@@ -1255,10 +1255,10 @@
 	<string name="poi_generator_source_oil">Energifonto: petrolo</string>
 	<string name="poi_generator_source_diesel">Energifonto: dizeloleo</string>
 
-	<string name="poi_pump_manual">Permana</string>
-	<string name="poi_pump_powered">Maŝina</string>
-	<string name="poi_pump_no">Sen pumpilo</string>
-	<string name="poi_pump_yes">Jes</string>
+	<string name="poi_pump_manual">permana</string>
+	<string name="poi_pump_powered">maŝina</string>
+	<string name="poi_pump_no">sen pumpilo</string>
+	<string name="poi_pump_yes">jes</string>
 
 	<string name="poi_water_characteristic_mineral">Minerala</string>
 	<string name="poi_water_characteristic_mud">Akvospeco: sediment-riĉa</string>
@@ -1290,8 +1290,8 @@
 	<string name="poi_board_type_astronomy">Astroscienco</string>
 
 	<string name="poi_commercial">Oficeja tereno</string>
-	<string name="poi_covered_yes">Jes</string>
-	<string name="poi_covered_no">Sen-tegmenta</string>
+	<string name="poi_covered_yes">jes</string>
+	<string name="poi_covered_no">Sentegmenta</string>
 
 	<string name="poi_smoking_no">malpermesata</string>
 	<string name="poi_smoking_outside">permesata nur ekstere</string>
@@ -1303,11 +1303,11 @@
 	<string name="poi_toll_yes">Imposto</string>
 	<string name="poi_toll_no">Sen imposto</string>
 	<string name="poi_toll_hgv_yes">Imposto por kamionoj</string>
-	<string name="poi_tactile_paving_yes">Jes</string>
-	<string name="poi_tactile_paving_no">Sen reliefo por blinduloj</string>
-	<string name="poi_traffic_signals_sound_yes">Jes</string>
-	<string name="poi_traffic_signals_sound_no">Ne</string>
-	<string name="poi_traffic_signals_sound_walk">Tiam kiam irado permesata</string>
+	<string name="poi_tactile_paving_yes">jes</string>
+	<string name="poi_tactile_paving_no">sen reliefo por blinduloj</string>
+	<string name="poi_traffic_signals_sound_yes">jes</string>
+	<string name="poi_traffic_signals_sound_no">ne</string>
+	<string name="poi_traffic_signals_sound_walk">tiam, kiam irado permesata</string>
 
 	<string name="poi_leisure_common">Publika ripoza tereno</string>
 	<string name="poi_highway_steps">Ŝtuparo</string>
@@ -1405,21 +1405,21 @@
 	<string name="poi_stars_7">Steloj: 7</string>
 	<string name="poi_love_hotel">Amor-hotelo</string>
 
-	<string name="poi_payment_coins_yes">Moneroj</string>
+	<string name="poi_payment_coins_yes">moneroj</string>
 	<string name="poi_payment_coins_no">Moneroj malakceptataj</string>
-	<string name="poi_payment_coins_0.5">Moneroj $0,5</string>
-	<string name="poi_payment_coins_50c12">Moneroj €0,5, €1 kaj €2</string>
-	<string name="poi_payment_telephone_cards_yes">Telefonkartoj</string>
+	<string name="poi_payment_coins_0.5">moneroj $0,5</string>
+	<string name="poi_payment_coins_50c12">moneroj €0,5, €1 kaj €2</string>
+	<string name="poi_payment_telephone_cards_yes">telefonkartoj</string>
 	<string name="poi_payment_telephone_cards_no">Telefonkartoj malakceptataj</string>
-	<string name="poi_payment_credit_cards_yes">Kreditkartoj</string>
+	<string name="poi_payment_credit_cards_yes">kreditkartoj</string>
 	<string name="poi_payment_credit_cards_no">Kreditkartoj malakceptataj</string>
-	<string name="poi_payment_notes_yes">Monbiletoj</string>
+	<string name="poi_payment_notes_yes">monbiletoj</string>
 	<string name="poi_payment_notes_no">Monbiletoj malakceptataj</string>
-	<string name="poi_payment_electronic_purses_yes">Antaŭpagitaj kartoj</string>
+	<string name="poi_payment_electronic_purses_yes">antaŭpagitaj kartoj</string>
 	<string name="poi_payment_electronic_purses_no">Antaŭpagitaj kartoj malakceptataj</string>
-	<string name="poi_payment_cash_yes">Kontanta mono</string>
+	<string name="poi_payment_cash_yes">kontanta mono</string>
 	<string name="poi_payment_cash_no">Kontanta mono malakceptata</string>
-	<string name="poi_payment_debit_cards_yes">Debetkartoj</string>
+	<string name="poi_payment_debit_cards_yes">debetkartoj</string>
 	<string name="poi_payment_debit_cards_no">Debetkartoj malakceptataj</string>
 	<string name="poi_payment_bitcoin_yes">Bitmono (Bitcoin)</string>
 	<string name="poi_payment_bitcoin_no">Bitmono (Bitcoin) malakceptata</string>
@@ -1446,7 +1446,7 @@
 	<string name="poi_payment_visa_electron_no">Visa Electron kartoj malakceptataj</string>
 	<string name="poi_payment_litecoin_yes">Litecoin</string>
 	<string name="poi_payment_litecoin_no">Litecoin malakceptata</string>
-	<string name="poi_payment_cheque_yes">Ĉekoj</string>
+	<string name="poi_payment_cheque_yes">ĉekoj</string>
 	<string name="poi_payment_cheque_no">Ĉekoj malakceptataj</string>
 	<string name="poi_payment_pikepass_yes">PIKEPASS</string>
 	<string name="poi_payment_pikepass_no">PIKEPASS malakceptata</string>
@@ -1454,7 +1454,7 @@
 	<string name="poi_payment_visa_debit_yes">Visa Debit</string>
 	<string name="poi_payment_visa_debit_no">Visa Debit kartoj malakceptataj</string>
 	<string name="poi_payment_cryptocurrencies_no">Ĉifrovalutoj malakceptataj</string>
-	<string name="poi_payment_others_yes">Aliaj</string>
+	<string name="poi_payment_others_yes">aliaj</string>
 	<string name="poi_payment_others_no">Aliaj pag-manieroj malakceptataj</string>
 	<string name="poi_payment_routex_yes">Routex</string>
 	<string name="poi_payment_routex_no">Routex brulaĵ-kartoj malakceptataj</string>
@@ -1462,7 +1462,7 @@
 	<string name="poi_payment_bancomat_no">Bancomat (Itala reto) kartoj malakceptataj</string>
 	<string name="poi_payment_icsf_yes">IC Stored Fare</string>
 	<string name="poi_payment_icsf_no">IC Stored Fare kartoj malakceptataj</string>
-	<string name="poi_payment_prepaid_ticket_yes">Antaŭpagitaj biletoj</string>
+	<string name="poi_payment_prepaid_ticket_yes">antaŭpagitaj biletoj</string>
 	<string name="poi_payment_jcb_yes">JCB</string>
 	<string name="poi_payment_jcb_no">JCB kartoj malakceptataj</string>
 	<string name="poi_payment_laser_yes">Laser (Irlanda reto)</string>
@@ -1485,7 +1485,7 @@
 	<string name="poi_payment_dogecoin_no">Dogecoin malakceptata</string>
 	<string name="poi_payment_cibus_yes">Cibus</string>
 	<string name="poi_payment_cibus_no">Cibus kartoj malakceptataj</string>
-	<string name="poi_payment_wire_transfer_yes">Ĝiroj</string>
+	<string name="poi_payment_wire_transfer_yes">ĝiroj</string>
 	<string name="poi_payment_wire_transfer_no">Ĝiroj malakceptataj</string>
 	<string name="poi_payment_ep_cash_yes">GeldKarte</string>
 	<string name="poi_payment_ep_cash_no">GeldKarte kartoj malakceptataj</string>
@@ -1513,7 +1513,7 @@
 	<string name="poi_payment_roadrunner_no">Roadrunner kartoj malakceptataj</string>
 	<string name="poi_payment_svg_yes">SVG</string>
 	<string name="poi_payment_svg_no">SVG brulaĵ-kartoj malakceptataj</string>
-	<string name="poi_payment_sms_yes">Per SMS</string>
+	<string name="poi_payment_sms_yes">per SMS</string>
 	<string name="poi_payment_sms_no">Pagoj per SMS malakceptataj</string>
 	<string name="poi_payment_ov_chipkaart_yes">OV-Chipkaart</string>
 	<string name="poi_payment_ov_chipkaart_no">OV-Chipkaart kartoj malakceptataj</string>
@@ -1523,15 +1523,15 @@
 	<string name="poi_payment_sube_no">SUBE kartoj malakceptataj</string>
 	<string name="poi_payment_via_verde_yes">Via Verde</string>
 	<string name="poi_payment_via_verde_no">Via Verde malakceptata</string>
-	<string name="poi_payment_meal_voucher_yes">Viand-kuponoj</string>
+	<string name="poi_payment_meal_voucher_yes">viand-kuponoj</string>
 	<string name="poi_payment_meal_voucher_no">Viand-kuponoj malakceptataj</string>
 	<string name="poi_payment_paypal_yes">PayPal</string>
 	<string name="poi_payment_paypal_no">PayPal malakceptata</string>
 	<string name="poi_payment_u_key_yes">U-Key</string>
 	<string name="poi_payment_u_key_no">U-Key malakceptata</string>
-	<string name="poi_payment_token_yes">Ĵetonoj</string>
+	<string name="poi_payment_token_yes">ĵetonoj</string>
 	<string name="poi_payment_token_no">Ĵetonoj malakceptataj</string>
-	<string name="poi_payment_gift_card_yes">Donac-kartoj</string>
+	<string name="poi_payment_gift_card_yes">donac-kartoj</string>
 	<string name="poi_payment_gift_card_no">Donac-kartoj malakceptataj</string>
 	<string name="poi_payment_golden_crown_yes">Golden Crown</string>
 	<string name="poi_payment_golden_crown_no">Golden Crown kartoj malakceptataj</string>
@@ -1543,7 +1543,7 @@
 	<string name="poi_payment_mtsmoney_yes">MTS-Money</string>
 	<string name="poi_payment_yandexmoney_yes">Yandex.Money</string>
 	<string name="poi_payment_yandexmoney_no">Yandex.Money malakceptata</string>
-	<string name="poi_description_payment">Maniero de pagado</string>
+	<string name="poi_description_payment">Pagmaniero</string>
 
 	<string name="poi_internet_access_fee_yes">Interret-aliro - pagenda</string>
 	<string name="poi_internet_access_fee_no">Interret-aliro - senpaga</string>
@@ -2158,14 +2158,14 @@
 	<string name="poi_refugee_yes">Servo por rifuĝintoj</string>
 	<string name="poi_refugee_no">Por rifuĝintoj: ne</string>
 
-	<string name="poi_social_facility_group_home">Grupa hejmo</string>
-	<string name="poi_social_facility_assisted_living">Subtenata loĝado</string>
-	<string name="poi_social_facility_outreach">Senpag-konsilejo</string>
-	<string name="poi_social_facility_food_bank">Manĝ-disdonejo</string>
-	<string name="poi_social_facility_shelter">Azilo</string>
-	<string name="poi_social_facility_ambulatory_care">Sanhelpejo</string>
-	<string name="poi_social_facility_workshop">Laborejo</string>
-	<string name="poi_social_facility_day_care">Tag-prizorgejo</string>
+	<string name="poi_social_facility_group_home">grupa hejmo</string>
+	<string name="poi_social_facility_assisted_living">subtenata loĝado</string>
+	<string name="poi_social_facility_outreach">senpaga konsilejo</string>
+	<string name="poi_social_facility_food_bank">manĝ-disdonejo</string>
+	<string name="poi_social_facility_shelter">azilo</string>
+	<string name="poi_social_facility_ambulatory_care">flegejo</string>
+	<string name="poi_social_facility_workshop">laborejo</string>
+	<string name="poi_social_facility_day_care">taga prizorgejo</string>
 
 	<string name="poi_social_facility_for_senior">maljunuloj</string>
 	<string name="poi_social_facility_for_child">infanoj</string>
@@ -2696,9 +2696,9 @@
 
 	<string name="poi_military_checkpoint">Kontrolejo armea</string>
 
-	<string name="poi_bicycle_parking_lockers">Ŝranketoj</string>
-	<string name="poi_bicycle_parking_tree">Bicikl-pendigilo</string>
-	<string name="poi_bicycle_parking_streetpod">Duon-ŝranketo</string>
+	<string name="poi_bicycle_parking_lockers">ŝranketoj</string>
+	<string name="poi_bicycle_parking_tree">bicikl-pendigilo</string>
+	<string name="poi_bicycle_parking_streetpod">duon-ŝranketo</string>
 
 	<string name="poi_wheelchair_designated">adaptita</string>
 	<string name="poi_spoil_heap">Skori-monto</string>
@@ -2923,7 +2923,7 @@
 	<string name="poi_health_person_type_technician">Laboranto de sanservo: teĥnikisto</string>
 	<string name="poi_health_person_type_witchdoctor">Laboranto de sanservo: fuŝkuracisto (ĉarlatano)</string>
 
-	<string name="poi_payment_account_cards_yes">Bankokartoj</string>
+	<string name="poi_payment_account_cards_yes">bankokartoj</string>
 	<string name="poi_payment_account_cards_no">Bankokartoj malakceptataj</string>
 	<string name="poi_health_specialty_general_yes">ĝenerala (familia kuracado)</string>
 	<string name="poi_health_specialty_ophthalmology_yes">okul-medicino (oftalmologio)</string>
@@ -3369,5 +3369,18 @@
 	<string name="poi_language_school">Lingva lernejo</string>
 
 <string name="poi_life_ring">Savoringo</string>
+
+<string name="poi_zoo_type">Speco</string>
+
+<string name="poi_zoo_petting_zoo">besteta ĝardeno</string>
+	<string name="poi_zoo_wildlife_park">sovaĝ-besta parko</string>
+	<string name="poi_zoo_enclosure">kaĝita</string>
+	<string name="poi_zoo_safari_park">safari-parko</string>
+	<string name="poi_zoo_birds">bird-kaĝoj</string>
+	<string name="poi_zoo_aviary">birdejo</string>
+	<string name="poi_zoo_falconry">rabbirda parko</string>
+	<string name="poi_zoo_reptile">rampulejo</string>
+
+<string name="poi_stands">Spektoteraso</string>
 
 </resources>
