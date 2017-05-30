@@ -104,6 +104,8 @@ public class GPXUtilities {
 	}
 
 	public static class WptPt extends GPXExtensions implements LocationPoint {
+		public boolean isFirstPoint;
+		public boolean isLastPoint;
 		public double lat;
 		public double lon;
 		public String name = null;
@@ -217,6 +219,7 @@ public class GPXUtilities {
 	}
 
 	public static class TrkSegment extends GPXExtensions {
+		public boolean isGeneralSegment = false;
 		public List<WptPt> points = new ArrayList<WptPt>();
 		private OsmandMapTileView view;
 
@@ -337,6 +340,9 @@ public class GPXUtilities {
 			double totalSpeedSum = 0;
 			points = 0;
 
+			long startTimeOfSingleSegment = 0;
+			long endTimeOfSingleSegment = 0;
+
 			double channelThresMin = 5;            // Minimum oscillation amplitude considered as noise for Up/Down analysis
 			double channelThres = channelThresMin; // Actual oscillation amplitude considered as noise, try depedency on current hdop/getAccuracy
 			double channelBase;
@@ -369,6 +375,18 @@ public class GPXUtilities {
 					}
 					long time = point.time;
 					if (time != 0) {
+						if (s.segment.isGeneralSegment) {
+							if (point.isFirstPoint) {
+								startTimeOfSingleSegment = time;
+							} else if(point.isLastPoint) {
+								endTimeOfSingleSegment = time;
+							}
+							if (startTimeOfSingleSegment != 0 && endTimeOfSingleSegment != 0) {
+								timeSpan += endTimeOfSingleSegment - startTimeOfSingleSegment;
+								startTimeOfSingleSegment = 0;
+								endTimeOfSingleSegment = 0;
+							}
+						}
 						startTime = Math.min(startTime, time);
 						endTime = Math.max(endTime, time);
 					}
@@ -531,7 +549,9 @@ public class GPXUtilities {
 			// OUTPUT:
 			// 1. Total distance, Start time, End time
 			// 2. Time span
-			timeSpan = endTime - startTime;
+			if (timeSpan == 0) {
+				timeSpan = endTime - startTime;
+			}
 
 			// 3. Time moving, if any
 			// 4. Elevation, eleUp, eleDown, if recorded
@@ -741,6 +761,10 @@ public class GPXUtilities {
 			List<SplitSegment> splitSegments = new ArrayList<GPXUtilities.SplitSegment>();
 			for (int i = 0; i < tracks.size(); i++) {
 				Track subtrack = tracks.get(i);
+				TrkSegment generalSegment = createGeneralSegment(i);
+				if (generalSegment != null) {
+					tracks.get(i).segments.add(0, generalSegment);
+				}
 				for (TrkSegment segment : subtrack.segments) {
 					g.totalTracks++;
 					if (segment.points.size() > 1) {
@@ -750,6 +774,26 @@ public class GPXUtilities {
 			}
 			g.prepareInformation(fileTimestamp, splitSegments.toArray(new SplitSegment[splitSegments.size()]));
 			return g;
+		}
+
+		public TrkSegment createGeneralSegment(int trackNumber) {
+			TrkSegment generalSegment = null;
+			List<WptPt> generalPoints = new ArrayList<>();
+			if (tracks.get(trackNumber).segments.size() <= 1 || tracks.get(trackNumber).segments.get(0).isGeneralSegment) {
+				return generalSegment;
+			}
+			for (TrkSegment segment : tracks.get(trackNumber).segments) {
+				if (segment.points.size() > 1) {
+					segment.points.get(0).isFirstPoint = true;
+					segment.points.get(segment.points.size() - 1).isLastPoint = true;
+					generalPoints.addAll(segment.points);
+				}
+			}
+			generalSegment = new TrkSegment();
+			generalSegment.points = generalPoints;
+			generalSegment.isGeneralSegment = true;
+
+			return generalSegment;
 		}
 
 
