@@ -217,6 +217,7 @@ public class GPXUtilities {
 	}
 
 	public static class TrkSegment extends GPXExtensions {
+		public boolean isGeneralSegment = false;
 		public List<WptPt> points = new ArrayList<WptPt>();
 		private OsmandMapTileView view;
 
@@ -734,17 +735,30 @@ public class GPXUtilities {
 			return "cloudmade".equalsIgnoreCase(author);
 		}
 
-		public TrkSegment createGeneralSegment(int trackNumber) {
-			List<WptPt> generalPoints = new ArrayList<>();
-			for (TrkSegment segment : tracks.get(trackNumber).segments) {
-				if (segment.points.size() > 1) {
-					generalPoints.addAll(segment.points);
+		public void addGeneralSegments() {
+			for (GPXUtilities.Track track : tracks) {
+				if (track.segments.get(0).isGeneralSegment) {
+					track.segments.remove(0);
 				}
-			}
-			TrkSegment generalSegment = new TrkSegment();
-			generalSegment.points = generalPoints;
+				GPXUtilities.TrkSegment generalSegment = new GPXUtilities.TrkSegment();
+				double lastDistance = 0;
+				for(GPXUtilities.TrkSegment s : track.segments) {
+					if (s.points.size() == 0) {
+						continue;
+					}
 
-			return generalSegment;
+					List<WptPt> pointsOfSegment = new ArrayList<>(s.points);
+					if (lastDistance != 0) {
+						for (WptPt point : pointsOfSegment) {
+							point.distance += lastDistance;
+						}
+					}
+					generalSegment.points.addAll(pointsOfSegment);
+					lastDistance = s.points.get(s.points.size() - 1).distance;
+				}
+				generalSegment.isGeneralSegment = true;
+				track.segments.add(0, generalSegment);
+			}
 		}
 
 		public GPXTrackAnalysis getAnalysis(long fileTimestamp) {

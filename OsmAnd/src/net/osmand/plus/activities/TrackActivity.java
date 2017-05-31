@@ -109,10 +109,10 @@ public class TrackActivity extends TabActivity {
 						}
 					}
 
-					for (int i = 0; i < result.tracks.size(); i++) {
-						GPXUtilities.TrkSegment generalSegment = result.createGeneralSegment(i);
-						result.tracks.get(i).segments.add(0, generalSegment);
-					}
+//					for (int i = 0; i < result.tracks.size(); i++) {
+//						GPXUtilities.TrkSegment generalSegment = result.createGeneralSegment(i);
+//						result.tracks.get(i).segments.add(0, generalSegment);
+//					}
 
 					return result;
 				}

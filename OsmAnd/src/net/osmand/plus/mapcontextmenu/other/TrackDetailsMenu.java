@@ -155,6 +155,7 @@ public class TrackDetailsMenu {
 		if (segment == null) {
 			List<ILineDataSet> ds = chart.getLineData().getDataSets();
 			if (ds != null && ds.size() > 0) {
+//				gpxItem.group.getGpx().addGeneralSegments();
 				for (GPXUtilities.Track t : gpxItem.group.getGpx().tracks) {
 					for (TrkSegment s : t.segments) {
 						if (s.points.size() > 0 && s.points.get(0).equals(gpxItem.analysis.locationStart)) {

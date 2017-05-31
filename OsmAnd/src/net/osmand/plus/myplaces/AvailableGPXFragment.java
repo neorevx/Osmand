@@ -1336,6 +1336,7 @@ public class AvailableGPXFragment extends OsmandExpandableListFragment {
 				item.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
 					@Override
 					public boolean onMenuItemClick(MenuItem item) {
+						gpxInfo.gpx.addGeneralSegments();
 						new OpenGpxDetailsTask(gpxInfo).execute();
 						return true;
 					}

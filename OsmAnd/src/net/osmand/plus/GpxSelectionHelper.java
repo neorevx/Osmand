@@ -203,6 +203,28 @@ public class GpxSelectionHelper {
 		String distanceClr = Algorithms.colorToString(ContextCompat.getColor(app, R.color.gpx_distance_color));
 		final float eleThreshold = 3;
 //		int t = 1;
+//		if (group.track.segments.get(0).isGeneralSegment) {
+//			group.track.segments.remove(0);
+//		}
+//		TrkSegment generalSegment = new TrkSegment();
+//		double lastDistance = 0;
+//		for(TrkSegment s : group.track.segments) {
+//			if (s.points.size() == 0) {
+//				continue;
+//			}
+//
+//			List<WptPt> pointsOfSegment = new ArrayList<>(s.points);
+//			if (lastDistance != 0) {
+//				for (WptPt point : pointsOfSegment) {
+//					point.distance += lastDistance;
+//				}
+//			}
+//			generalSegment.points.addAll(pointsOfSegment);
+//			lastDistance = s.points.get(s.points.size() - 1).distance;
+//		}
+//		generalSegment.isGeneralSegment = true;
+//		group.track.segments.add(0, generalSegment);
+
 		for (TrkSegment r : group.track.segments) {
 			if (r.points.size() == 0) {
 				continue;
